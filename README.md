@@ -1,5 +1,7 @@
 # YOLO ANYmal
 
+Track the motion of the ANYmal robot in a video and display its path.
+
 ## Setup
 
 Install [Docker Community Edition](https://docs.docker.com/engine/install/ubuntu/) (ex Docker Engine).
@@ -44,3 +46,8 @@ Convert the labels produced by `labelme` to `yolo` format with
 ```shell
 labelme2yolo --json_dir path/to/jsons --val_size 0.20 --test_size 0.20
 ```
+
+### Results
+
+<img src="https://raw.githubusercontent.com/ddebenedittis/media/main/yolo_anymal/yolo_anymal.png" width="640">
+
